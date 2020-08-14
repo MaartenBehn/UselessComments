@@ -75,7 +75,7 @@ public class Main {
 					comment = usedStatement.lines[0];
 				}
 
-				line = line +" //"+ comment;
+				line = line +" // "+ comment;
 
 				lines.set(i, line);
 			}

@@ -2,10 +2,67 @@
   "statements" :
   [
     {
+      "statement" : "int",
+      "lines" :
+      [
+        "Rechne mal aus wie viel da reinpasst. Tip: 2 hoch 32",
+        "Eigentlich viel zu groß für sachen wie ein index Counter.",
+        "Noch ein Int",
+        "Ein int"
+      ]
+    },
+    {
+      "statement" : "long",
+      "lines" :
+      [
+        "Jetzt erkär mal gut warum das brauchst... "
+      ]
+    },
+    {
+      "statement" : "short",
+      "lines" :
+      [
+        "Nutzt niemand warum fängst du plötzlich an dich um performance und RAM auslastung zu interessieren? "
+      ]
+    },
+    {
+      "statement" : "boolean",
+      "lines" :
+      [
+        "Ein Boolean",
+        "Ein bool wie alle anderen es nennen. Aber nein Java hält sich für was besseres. "
+      ]
+    },
+    {
+      "statement" : "String",
+      "lines" :
+      [
+        "Ein String",
+        "Warum wird das groß geschireiben? Überall klein aus in Java WARUM? Und komm bloß nicht an mit bla String ist keine Native klasse... Lass uns doch gleich char[] nutzen!"
+      ]
+    },
+    {
       "statement" : "if",
       "lines" :
       [
-        "Ein if Statement wie jedes andere das sollte jedem klar sein was das macht."
+        "Ein if",
+        "Ein if Statement wie jedes andere. Das sollte jedem klar sein was das macht.",
+        "If hier if da if überall. Nichts da mit vorladen von cpu befehlen. Perfomance ist etwas was java eh nicht kann also warum überhaubt erst anfangen."
+      ]
+    },
+    {
+      "statement" : "else",
+      "lines" :
+      [ "Eine else... den rest weist du selbst.",
+        "Das ist ein Ober der kommt an die Reie wenn niemand anderes den kack code will."
+      ]
+    },
+    {
+      "statement" : "return",
+      "lines" :
+      [
+        "Komm schon das kennet man doch.",
+        "Das ist wie ein Hund es das bringt den Ball immer wieder zurück."
       ]
     }
   ]
