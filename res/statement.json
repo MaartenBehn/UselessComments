@@ -1,0 +1,12 @@
+{
+  "statements" :
+  [
+    {
+      "statement" : "if",
+      "lines" :
+      [
+        "Ein if Statement wie jedes andere das sollte jedem klar sein was das macht."
+      ]
+    }
+  ]
+}
