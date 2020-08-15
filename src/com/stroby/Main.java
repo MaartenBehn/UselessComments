@@ -14,17 +14,17 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-		Utility.print("Startup... \r");
+		Utility.print("Startup...");
 
     	Random random = new Random();
 
-		Utility.print("Startup... Done! \n");
+		Utility.print("\rStartup... Done! \n");
 
 		ArrayList<Statement> statements = new ArrayList<>();
 		JSONArray jsonArray = (JSONArray) Utility.loadJson("/res/statement.json").get("statements");
 		for (int i = 0; i < jsonArray.size(); i++) {
 
-			Utility.print("Loading Statements... "+ i + 1 +" of "+ jsonArray.size() +" \r"); // Will never be seen.
+			Utility.print("\rLoading Statements... "+ (i + 1) +" of "+ jsonArray.size()); // Will never be seen.
 
 			JSONObject jsonObject = (JSONObject) jsonArray.get(i);
 
@@ -39,28 +39,33 @@ public class Main {
 
 			statements.add(statement);
 		}
-		Utility.print("Loading Statements... Done!\n");
+		Utility.print(" Done!\n");
 
 	    Utility.println("Input Path of projrct dir:");
+	    Utility.println("Input \"-\" and the root dir will be used;");
 	    String projectPath = Utility.getInput();
 
-		Utility.print("Loading Files... \r");
+	    if(projectPath.equals("-")){
+	    	projectPath = System.getProperty("user.dir");
+		}
+
+		Utility.print("Loading Files... at: " + projectPath);
 
 		ArrayList<File> files = new ArrayList<>();
 		Utility.getFileFromDir(projectPath, files, ".java");
 
-		Utility.print("Loading Files... Done!\n");
+		Utility.print(" Done!\n");
 
 		Utility.println(files.size() +" files with .java ending found.");
 
 		if(files.size() == 0) {
-			Utility.println("No files to comment found ending program.");
+			Utility.println("No files to comment found ending programm.");
 			return;
 		}
 
 		for (File file : files) {
 
-			Utility.print("Commenting files... "+ file.getName() +" at: "+ file.getAbsolutePath() +" \r");
+			Utility.println("Commenting file... "+ file.getName() +" at: "+ file.getAbsolutePath());
 
 			List<String> lines = Files.readAllLines(file.toPath(), StandardCharsets.UTF_8);
 
@@ -107,8 +112,8 @@ public class Main {
 			Files.write(file.toPath(), lines, StandardCharsets.UTF_8);
 		}
 
-		Utility.print("Commenting files... Done! \n");
-		Utility.println("Ending programm. \n");
+		Utility.println("All files commented!");
+		Utility.println("Ending programm.");
     }
 }
 

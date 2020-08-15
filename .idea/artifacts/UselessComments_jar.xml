@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UselessComments:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UselessComments_jar</output-path>
+    <properties id="ant-preprocessing">
+      <options enabled="true" />
+    </properties>
+    <root id="archive" name="UselessComments.jar">
+      <element id="module-output" name="UselessComments" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/json.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
