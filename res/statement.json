@@ -15,14 +15,14 @@
       "statement" : "long",
       "lines" :
       [
-        "Jetzt erkär mal gut warum das brauchst... "
+        "Jetzt erkär mal gut warum das brauchst..."
       ]
     },
     {
       "statement" : "short",
       "lines" :
       [
-        "Nutzt niemand warum fängst du plötzlich an dich um performance und RAM auslastung zu interessieren? "
+        "Nutzt niemand warum fängst du plötzlich an dich für performance und RAM auslastung zu interessieren? "
       ]
     },
     {
@@ -30,7 +30,7 @@
       "lines" :
       [
         "Ein Boolean",
-        "Ein bool wie alle anderen es nennen. Aber nein Java hält sich für was besseres. "
+        "Ein bool wie alle anderen es nennen. Aber nein! Java hält sich für was besseres."
       ]
     },
     {
@@ -38,7 +38,7 @@
       "lines" :
       [
         "Ein String",
-        "Warum wird das groß geschireiben? Überall klein aus in Java WARUM? Und komm bloß nicht an mit bla String ist keine Native klasse... Lass uns doch gleich char[] nutzen!"
+        "Warum wird das groß geschireiben? Überall klein außer in Java, WARUM!? Und komm bloß nicht an mit bla String ist keine Native klasse... Lass uns doch gleich char[] nutzen!"
       ]
     },
     {
@@ -46,14 +46,15 @@
       "lines" :
       [
         "Ein if",
-        "Ein if Statement wie jedes andere. Das sollte jedem klar sein was das macht.",
-        "If hier if da if überall. Nichts da mit vorladen von cpu befehlen. Perfomance ist etwas was java eh nicht kann also warum überhaubt erst anfangen."
+        "Ein if Statement wie jedes andere. Da sollte jedem klar sein was das macht.",
+        "If hier if da if überall. Nichts da mit vorladen von cpu befehlen. Perfomance ist etwas was java eh nicht kann, also warum überhaubt erst anfangen?"
       ]
     },
     {
       "statement" : "else",
       "lines" :
-      [ "Eine else... den rest weist du selbst.",
+      [
+        "Eine else... den rest weist du selbst.",
         "Das ist ein Ober der kommt an die Reie wenn niemand anderes den kack code will."
       ]
     },
@@ -62,7 +63,7 @@
       "lines" :
       [
         "Komm schon das kennet man doch.",
-        "Das ist wie ein Hund es das bringt den Ball immer wieder zurück."
+        "Das ist wie ein Hund es bringt den Ball immer wieder zurück."
       ]
     }
   ]
