@@ -27,7 +27,7 @@ public class Main {
 			JSONArray jLines = (JSONArray) jsonObject.get("lines");
 			statement.lines = new String[jLines.size()];
 			for (int j = 0; j < jLines.size(); j++) {
-				statement.lines[i] = (String) jLines.get(i);
+				statement.lines[j] = (String) jLines.get(j);
 			}
 
 			statements.add(statement);
@@ -61,15 +61,17 @@ public class Main {
 					continue;
 				}
 				else if(activeStatements.size() > 1){
-					usedStatement = activeStatements.get(random.nextInt(activeStatements.size()-1));
+					int index = random.nextInt(activeStatements.size());
+					usedStatement = activeStatements.get(index);
 				}
 				else{
 					usedStatement = activeStatements.get(0);
 				}
 
 				String comment;
-				if(activeStatements.size() > 1){
-					comment = usedStatement.lines[random.nextInt(usedStatement.lines.length -1)];
+				if(usedStatement.lines.length > 1){
+					int index = random.nextInt(usedStatement.lines.length);
+					comment = usedStatement.lines[index];
 				}
 				else {
 					comment = usedStatement.lines[0];
