@@ -193,9 +193,38 @@
       "lines" :
       [
         "Was würden wir nur ohne for loops machen?",
-        "Ich wette du misbrauchst mal wieder den loop um ein Element aus eineer Liste zu finden."
+        "Ich wette du misbrauchst mal wieder den loop um ein Element aus eineer Liste zu finden.",
+        "Let it Roll < dQw4w9WgXcQ >"
       ]
     },
+    {
+      "statement" : "do",
+      "lines" :
+      [
+        "Nimm ein for loop oder verpiss dich zu deinen batch freunden!"
+      ]
+    },
+    {
+      "statement" : "this",
+      "lines" :
+      [
+        "Wir lassen keinen spielraum für falsch context.",
+        "this.this.this.this.this.this.this = this",
+        "Das ist wie denn man sich selber verkauft.",
+        "Da redet jemand mit sich selbst.",
+        "Ha noch ein this"
+      ]
+    },
+    {
+      "statement" : "null",
+      "lines" :
+      [
+        "Von nichts kommt nichts.",
+        "das wird safe noch ein fehler erzeugen.",
+        "a = nichts kennt man doch."
+      ]
+    },
+
 
     {
       "statement" : "public int ",
@@ -229,6 +258,15 @@
         "Hey was machst du hier biste kommplett verblödet?",
         "Sicher das der auch wieder aufhört?",
         "Der Moment wenn man seinen Pc abstürzen lassen muss weil das programm nicht stopt. Kennst du das? DAS HIER IST DER GRUND"
+      ]
+    },
+    {
+      "statement" : ".toArray()",
+      "lines" :
+      [
+        "toArray RAM sagt AUA.",
+        "Der einzige weg daten zu kopieren.",
+        "Der ungeliebte Burder von .toString()"
       ]
     }
   ]

@@ -14,11 +14,18 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
+		Utility.print("Startup... \r");
+
     	Random random = new Random();
+
+		Utility.print("Startup... Done! \n");
 
 		ArrayList<Statement> statements = new ArrayList<>();
 		JSONArray jsonArray = (JSONArray) Utility.loadJson("/res/statement.json").get("statements");
 		for (int i = 0; i < jsonArray.size(); i++) {
+
+			Utility.print("Loading Statements... "+ i + 1 +" of "+ jsonArray.size() +" \r"); // Will never be seen.
+
 			JSONObject jsonObject = (JSONObject) jsonArray.get(i);
 
 			Statement statement = new Statement();
@@ -32,14 +39,29 @@ public class Main {
 
 			statements.add(statement);
 		}
+		Utility.print("Loading Statements... Done!\n");
 
-	    Utility.print("Input Path of Projrct Dir.");
+	    Utility.println("Input Path of projrct dir:");
 	    String projectPath = Utility.getInput();
+
+		Utility.print("Loading Files... \r");
 
 		ArrayList<File> files = new ArrayList<>();
 		Utility.getFileFromDir(projectPath, files, ".java");
 
+		Utility.print("Loading Files... Done!\n");
+
+		Utility.println(files.size() +" files with .java ending found.");
+
+		if(files.size() == 0) {
+			Utility.println("No files to comment found ending program.");
+			return;
+		}
+
 		for (File file : files) {
+
+			Utility.print("Commenting files... "+ file.getName() +" at: "+ file.getAbsolutePath() +" \r");
+
 			List<String> lines = Files.readAllLines(file.toPath(), StandardCharsets.UTF_8);
 
 
@@ -85,6 +107,8 @@ public class Main {
 			Files.write(file.toPath(), lines, StandardCharsets.UTF_8);
 		}
 
+		Utility.print("Commenting files... Done! \n");
+		Utility.println("Ending programm. \n");
     }
 }
 
