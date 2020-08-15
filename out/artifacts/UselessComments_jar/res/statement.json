@@ -1,0 +1,273 @@
+{
+  "statements" :
+  [
+    {
+      "statement" : "int ",
+      "lines" :
+      [
+        "Rechne mal aus wie viel da reinpasst. Tip: 2 hoch 32",
+        "Eigentlich viel zu groß für sachen wie ein index Counter.",
+        "Noch ein Int",
+        "Ein int"
+      ]
+    },
+     {
+      "statement" : "long ",
+      "lines" :
+      [
+        "Jetzt erkär mal gut warum das brauchst..."
+      ]
+    },
+    {
+      "statement" : "short ",
+      "lines" :
+      [
+        "Nutzt niemand warum fängst du plötzlich an dich für performance und RAM auslastung zu interessieren? "
+      ]
+    },
+    {
+      "statement" : "boolean ",
+      "lines" :
+      [
+        "Ein Boolean",
+        "Ein bool wie alle anderen es nennen. Aber nein! Java hält sich für was besseres."
+      ]
+    },
+    {
+      "statement" : "char ",
+      "lines" :
+      [
+        "Ein Char",
+        "Immer schön mit einzelnen Bustaben herum zu hantieren.",
+        "Hey du bist ein byte fang bloß nicht an etwas anderes zu denken.",
+        "Wer hat dir eingentlich erlaubt ein nativer daten typ zu sein?"
+      ]
+    },
+    {
+      "statement" : "byte ",
+      "lines" :
+      [
+        "Ein Byte",
+        "Der Datentyp für die 0.00001% der java entwikler die denken sie müssten anfagen sich um RAM auslastung zu kümmern. Geht zu den C Leuten niemand will euch hier."
+      ]
+    },
+
+    {
+      "statement" : "String ",
+      "lines" :
+      [
+        "Ein String",
+        "Warum wird das groß geschireiben? Überall klein außer in Java, WARUM!? Und komm bloß nicht an mit bla String ist keine Native klasse... Lass uns doch gleich char[] nutzen!"
+      ]
+    },
+    {
+      "statement" : "ArrayList ",
+      "lines" :
+      [
+        "Das währe auch safe mit einem Array gegangen."
+      ]
+    },
+    {
+      "statement" : " List ",
+      "lines" :
+      [
+        "Nutz ArrayList nimand will diese .get(i) scheiße."
+      ]
+    },
+    {
+      "statement" : "struct ",
+      "lines" :
+      [
+        "Was auch immer du schreiben willst es wird nicht funktioniern. Den die gibs in Java garnicht."
+      ]
+    },
+
+    {
+      "statement" : "public ",
+      "lines" :
+      [
+        "Alle dürfen alles sehen und machen das nenne ich wahren Kommunismus.",
+        "Mach alles public und man hat keine refference Probleme"
+      ]
+    },
+    {
+      "statement" : "private ",
+      "lines" :
+      [
+        "Lass es einfach weg die Sachen sind eh von Haus aus private.",
+        "Oh wir haben hier wieder einen von den die ihre Variablen und Funktionen nicht teilen wollen."
+      ]
+    },
+    {
+      "statement" : "protected ",
+      "lines" :
+      [
+        "Warum nutzt du den den Scheiß."
+      ]
+    },
+
+    {
+      "statement" : "class ",
+      "lines" :
+      [
+        "Eine Klasse",
+        "Ja von den wirst du viele erstellen müssen.",
+        "Viele bute Klassen",
+        "Java: exsits  Junior Dev: Wait it is all classes?  Senior Dev: Allways has bin.",
+        "Depresive Ammi Kinder sollten mal Java als Ziel nehmen, da können die sich richtig austoben.",
+        "Ich wette mit dir diese klasse ist eine von diesen Klassen die nur aus Kontainer für ein paar funktion dienet."
+      ]
+    },
+    {
+      "statement" : "extends ",
+      "lines" :
+      [
+        "Oh hier hat jemand OOP verstanden. Mal was ganz neues."
+      ]
+    },
+    {
+      "statement" : "implements ",
+      "lines" :
+      [
+        "Viele bunte Interfaces",
+        "Ich baue auch immer gerne Klassen die Interfaces von so gut wie allem erben."
+      ]
+    },
+
+    {
+      "statement" : "if",
+      "lines" :
+      [
+        "Ein if",
+        "Nutz ein switch.",
+        "Ein if Statement wie jedes andere. Da sollte jedem klar sein was das macht.",
+        "If hier if da if überall. Nichts da mit vorladen von cpu befehlen. Perfomance ist etwas was java eh nicht kann, also warum überhaubt erst anfangen?"
+      ]
+    },
+    {
+      "statement" : "else",
+      "lines" :
+      [
+        "Eine else... den rest weist du selbst.",
+        "Das ist ein Ober der kommt an die Reie wenn niemand anderes den kack code will."
+      ]
+    },
+    {
+      "statement" : "try",
+      "lines" :
+      [
+        "Du versuchst noch nicht einmal keine Fehler in deinen Code einzubauen."
+      ]
+    },
+    {
+      "statement" : "catch",
+      "lines" :
+      [
+        "Hier wird der ganze dreck den du geschrieben hast endlich weggeschmissen!"
+      ]
+    },
+    {
+      "statement" : "return",
+      "lines" :
+      [
+        "Komm schon das kennet man doch.",
+        "Das ist wie ein Hund es bringt den Ball immer wieder zurück."
+      ]
+    },
+    {
+      "statement" : "break",
+      "lines" :
+      [
+        "break; Gut gemacht. Hier denkt jemand mit. "
+      ]
+    },
+    {
+      "statement" : "continue",
+      "lines" :
+      [
+        "Dagegen kann man nichts sagen. "
+      ]
+    },
+    {
+      "statement" : "for",
+      "lines" :
+      [
+        "Was würden wir nur ohne for loops machen?",
+        "Ich wette du misbrauchst mal wieder den loop um ein Element aus eineer Liste zu finden.",
+        "Let it Roll < dQw4w9WgXcQ >"
+      ]
+    },
+    {
+      "statement" : "do",
+      "lines" :
+      [
+        "Nimm ein for loop oder verpiss dich zu deinen batch freunden!"
+      ]
+    },
+    {
+      "statement" : "this",
+      "lines" :
+      [
+        "Wir lassen keinen spielraum für falsch context.",
+        "this.this.this.this.this.this.this = this",
+        "Das ist wie denn man sich selber verkauft.",
+        "Da redet jemand mit sich selbst.",
+        "Ha noch ein this"
+      ]
+    },
+    {
+      "statement" : "null",
+      "lines" :
+      [
+        "Von nichts kommt nichts.",
+        "das wird safe noch ein fehler erzeugen.",
+        "a = nichts kennt man doch."
+      ]
+    },
+
+
+    {
+      "statement" : "public int ",
+      "lines" :
+      [
+        "Ich hoffe das wird eine get/set Methode!",
+        "Wer brauch schon Get ung Set Methoden? Richig niemand."
+      ]
+    },
+    {
+      "statement" : "public String ",
+      "lines" :
+      [
+        "Ich hoffe das wird eine get/set Methode!",
+        "Wer brauch schon Get ung Set Methoden? Richig niemand."
+      ]
+    },
+    {
+      "statement" : "while(true)",
+      "lines" :
+      [
+        "Hey was machst du hier biste kommplett verblödet?",
+        "Sicher das der auch wieder aufhört?",
+        "Der Moment wenn man seinen Pc abstürzen lassen muss weil das programm nicht stopt. Kennst du das? DAS HIER IST DER GRUND"
+      ]
+    },
+    {
+      "statement" : "while (true)",
+      "lines" :
+      [
+        "Hey was machst du hier biste kommplett verblödet?",
+        "Sicher das der auch wieder aufhört?",
+        "Der Moment wenn man seinen Pc abstürzen lassen muss weil das programm nicht stopt. Kennst du das? DAS HIER IST DER GRUND"
+      ]
+    },
+    {
+      "statement" : ".toArray()",
+      "lines" :
+      [
+        "toArray RAM sagt AUA.",
+        "Der einzige weg daten zu kopieren.",
+        "Der ungeliebte Burder von .toString()"
+      ]
+    }
+  ]
+}
