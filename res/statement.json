@@ -65,6 +65,29 @@
         "Komm schon das kennet man doch.",
         "Das ist wie ein Hund es bringt den Ball immer wieder zurück."
       ]
+    },
+    {
+      "statement" : "catch",
+      "lines" :
+      [
+        "Hier wird der ganze dreck den du geschrieben hast endlich weggeschmissen!"
+      ]
+    },
+    {
+      "statement" : "public",
+      "lines" :
+      [
+      "Ich hoffe das wird eine get/set Methode!"
+      ]
+    },
+    {
+      "statement" : "try",
+      "lines" :
+      [
+        "Du versuchst noch nicht einmal keine Fehler in deinen Code einzubauen."
+      ]
     }
+    
+    
   ]
 }
